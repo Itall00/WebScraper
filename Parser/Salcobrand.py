@@ -31,7 +31,7 @@ def Salcobrand(remedios,lista2):
                 print(f"Principio activo:{i}")
                 descripcionElement = job.find("span", class_="product-info truncate").get_text()
                 precio = job.find("span", class_="price selling").get_text()
-                
+
                 lista2.append(i)
                 lista2.append(descripcionElement)
                 lista2.append("Salcobrand")

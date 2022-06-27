@@ -24,7 +24,7 @@ def Ahumada(remedios,lista2):
         url = f"https://www.farmaciasahumada.cl/catalogsearch/result/?q={i}"
 
         soup = extraer(url)
-        lista = soup.find_all('ol', class_='products list items product-items')
+        lista = soup.find_all('li', class_='item product product-item')
 
         for job in lista:
             try:
