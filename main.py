@@ -1,20 +1,27 @@
-
-from DataManager import read_file, save_file
-from Parser.Ahumada import Ahumada
-
-from Parser.Salcobrand import Salcobrand
-
+from DataManager import *
+from Ahumada import *
+import csv
+from Remedios import medicamentos
+from Simi import Simi
+from UFprice import getUFprice
+from Funciones import *
 
 def main():
 
-    remedios = read_file("princios_activos.txt")
-    lista_vacia = []
+    remedios = read_txt("principios_activos.txt")
 
-    lista_csv = Ahumada(remedios, lista_vacia)
+    Ahumada(remedios)
+    Simi(remedios)
+    getUFprice()
 
-    lista_csv_final = Salcobrand(remedios, lista_csv)
+    with open('Medicamentos.csv', 'w') as Medicamentos_csv:
+        writer = csv.writer(Medicamentos_csv)
+        for x in medicamentos:
+            writer.writerow([x.activo, x.farmacia, x.descripcion, x.precioClp, x.precioUf])
 
-    save_file(lista_csv_final)
+    for Principio_Activo in remedios:
+        Promedio_Activo(Principio_Activo)
+
 
 if __name__ == "__main__":
     main()
