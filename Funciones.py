@@ -61,7 +61,7 @@ def Mediana_Activo(Activo): #mediana entre todas las farmacias
     datos_mediana = statistics.median(activos_filtrados_precio)
     print(datos_mediana)
 
-def Desviacion_Acvtivo(Activo): #desviacion estandar entre todas las farmacias
+def Desviacion_Activo(Activo): #desviacion estandar entre todas las farmacias
     activos_filtrados = list(filter(lambda x: x.activo == Activo, medicamentos))
     activos_filtrados_precio = list(map(lambda p: p.precioClp,activos_filtrados))
     Desv_Farmacia = statistics.pstdev(activos_filtrados_precio)

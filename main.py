@@ -8,6 +8,8 @@ from Simi import Simi
 from UFprice import getUFprice
 from Funciones import *
 
+# Si el codigo es muy lento, insertar menos principios activos a la vez 
+
 def main():
 
     remedios = read_txt("principios_activos.txt")  # lee el txt con los activos
