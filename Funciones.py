@@ -1,7 +1,13 @@
 from Remedios import medicamentos
 from functools import reduce
 import functools
+import pandas as pd
 
+def Csv(Nombre):
+    df = pd.read_csv(Nombre, encoding = 'latin')
+    df.columns=['Principio Activo', 'Farmacia', 'Descripción', 'Precio en Pesos Chilenos', 'Precio en UF']
+    df= df[df['Precio en Pesos Chilenos'] != 0.0]
+    df.to_csv('Remedios.csv', index=False)
 
 def Promedio_Activo(Input_Activo):
 
@@ -14,6 +20,8 @@ def Promedio_Activo(Input_Activo):
 
 def Maximo_Precio(Input_Activo):
     print (reduce(lambda a,b : a if a > b else b,medicamentos))
+
+
     
 
     
