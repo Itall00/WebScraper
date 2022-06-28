@@ -6,7 +6,7 @@ import csv
 condicional = True
 
 
-def getUFprice():
+def getUFprice(): #scraper UF
     global condicional
     URL = "https://www.bcentral.cl/inicio"
     page = requests.get(URL)

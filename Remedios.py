@@ -1,5 +1,6 @@
 import UFprice
 
+
 class Producto(object):
     def __init__(self, activo, farmacia, descripcion, precioClp):
         self.__activo = activo
@@ -47,5 +48,6 @@ class Producto(object):
     @precioUf.setter
     def precioUf(self, precioUf):
         self.__precioUf = precioUf
+
 
 medicamentos = []

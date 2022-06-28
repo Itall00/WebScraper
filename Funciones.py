@@ -1,26 +1,54 @@
-import pandas as pd
-
 from Remedios import medicamentos
 from functools import reduce
-import functools
 
-def Csv(Nombre):
-    df = pd.read_csv(Nombre, encoding = 'latin')
-    df.columns=['Principio Activo', 'Farmacia', 'Descripción', 'Precio en Pesos Chilenos', 'Precio en UF']
-    df= df[df['Precio en Pesos Chilenos'] != 0.0]
-    df.to_csv('Medicamentos.csv', index=False)
 
-def Promedio_Activo(Input_Activo):
+def Promedio_Activo(Activo):# promedio precio por activo entre todas las farmacias
 
-    activos_filtrados=list(filter(lambda x: x.activo == Input_Activo, medicamentos))
-    print(f"El precio en CLP del activo {Input_Activo} es: ")
-    print(reduce(lambda suma, p: suma + p.precioClp, activos_filtrados,0)/len(activos_filtrados),"\n")
-    print(f"El precio en UF del activo {Input_Activo} es: ")
-    print(reduce(lambda suma, p: suma + p.precioUf, activos_filtrados,0)/len(activos_filtrados),"\n")
+    lista = list(filter(lambda x: x.activo == Activo, medicamentos))
+    print(f"El precio promedio en CLP del activo {Activo} es: ")
+    print(reduce(lambda suma, p: suma + p.precioClp, lista,0)/len(lista),"\n")
+    print(f"El precio promedio en UF del activo {Activo} es: ")
+    print(reduce(lambda suma, p: suma + p.precioUf, lista,0)/len(lista),"\n")
 
-    
+def Promedio_Activo_Farmacia(Activo,Farmacia):# promedio precio por activo entre farmacia seleccionada
 
-def Minimo_Farmacia(Input_Activo, Input_Farmacia):
-    activos_filtrados = list(filter(lambda x: x.activo == Input_Activo and x.farmacia == Input_Farmacia, medicamentos))
-    Minimo_Farmacia = min(activos_filtrados, key=lambda value: value.precioClp)
-    print("\n", Minimo_Farmacia.activo, Minimo_Farmacia.farmacia, Minimo_Farmacia.descripcion, Minimo_Farmacia.precioClp, Minimo_Farmacia.precioUf)
+    lista = list(filter(lambda x: x.activo == Activo and x.farmacia == Farmacia, medicamentos))
+    print(f"El precio promedio en CLP del activo {Activo} y de la farmacia {Farmacia} es: ")
+    print(reduce(lambda suma, p: suma + p.precioClp, lista,0)/len(lista),"\n")
+    print(f"El precio promedio en UF del activo {Activo} y de la farmacia {Farmacia} es: ")
+    print(reduce(lambda suma, p: suma + p.precioUf, lista,0)/len(lista),"\n")
+
+
+def Minimo_Farmacia(Activo, Farmacia):  # precio minimo en la farmacia seleccionada
+    lista = list(filter(lambda x: x.activo == Activo and x.farmacia == Farmacia, medicamentos))
+    Minimo_Farmacia = min(lista, key=lambda value: value.precioClp)
+    print(" -- Minimo Farmacia -- ")
+    print("Principio Activo: ", Minimo_Farmacia.activo, "\nFarmacia: ", Minimo_Farmacia.farmacia, "\nDescripcion: ", Minimo_Farmacia.descripcion,"\nPrecio min CLP: " ,Minimo_Farmacia.precioClp, "\nPrecio min UF: " ,Minimo_Farmacia.precioUf, "\n")
+
+def Maximo_Farmacia(Activo, Farmacia):  # precio maximo en la farmacia seleccionada
+    lista = list(filter(lambda x: x.activo == Activo and x.farmacia == Farmacia, medicamentos))
+    Maximo_Farmacia = max(lista, key=lambda value: value.precioClp)
+    print(" -- Maximo Farmacia -- ")
+    print("Principio Activo: ", Maximo_Farmacia.activo, "\nFarmacia: ", Maximo_Farmacia.farmacia, "\nDescripcion: ",Maximo_Farmacia.descripcion,"\nPrecio min CLP: " ,Maximo_Farmacia.precioClp, "\nPrecio min UF: " ,Maximo_Farmacia.precioUf,"\n")
+
+def Minimo_Activo(Activo):  # precio minimo entre todas las farmacias
+    lista = list(filter(lambda x: x.activo == Activo, medicamentos))
+    Minimo = min(lista, key=lambda value: value.precioClp)
+    print(" -- Minimo Activo -- ")
+    print("Principio Activo: ", Minimo.activo, "\nFarmacia: ", Minimo.farmacia, "\nDescripcion: ",Minimo.descripcion,"\nPrecio min CLP: " ,Minimo.precioClp, "\nPrecio min UF: " ,Minimo.precioUf,"\n")
+
+def Maximo_Activo(Activo):  # precio maximo entre todas las farmacias
+    lista = list(filter(lambda x: x.activo == Activo, medicamentos))
+    Maximo = max(lista, key=lambda value: value.precioClp)
+    print(" -- Minimo Activo -- ")
+    print("Principio Activo: ", Maximo.activo, "\nFarmacia: ", Maximo.farmacia, "\nDescripcion: ",Maximo.descripcion,"\nPrecio min CLP: " ,Maximo.precioClp, "\nPrecio min UF: " ,Maximo.precioUf,"\n")
+
+def Diferencia_Farmacia(Activo,Farmacia):   # diferencia entre precios de un activo en farmacia seleccionada
+    lista = list(filter(lambda x: x.activo == Activo and x.farmacia == Farmacia, medicamentos))
+    print(f"La diferencia entre el valor maximo y minimo del activo en Clp {Activo} en la farmacia {Farmacia} es:", (max(lista, key=lambda value: value.precioClp)).precioClp - (min(lista, key=lambda value: value.precioClp)).precioUf)
+    print(f"La diferencia entre el valor maximo y minimo del activo en UF {Activo} en la farmacia {Farmacia} es:", (max(lista, key=lambda value: value.precioClp)).precioClp - (min(lista, key=lambda value: value.precioClp)).precioUf)
+
+def Diferencia_Activo(Activo):  # diferencia entre precios de un activo entre todas las farmacias
+    lista = list(filter(lambda x: x.activo == Activo, medicamentos))
+    print(f"\nLa diferencia entre el valor maximo y minimo en Clp del activo {Activo} es:", (max(lista, key=lambda value: value.precioClp)).precioClp - (min(lista, key=lambda value: value.precioClp)).precioClp)
+    print(f"La diferencia entre el valor maximo y minimo Uf del activo {Activo} es:",(max(lista, key=lambda value: value.precioClp)).precioUf - (min(lista, key=lambda value: value.precioClp)).precioUf)
