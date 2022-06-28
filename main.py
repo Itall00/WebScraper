@@ -52,5 +52,9 @@ def main():
 
         Diferencia_Activo(Principio_Activo)
 
+        Mediana_Activo(Principio_Activo)
+
+        Desviacion_Acvtivo(Principio_Activo)
+
 if __name__ == "__main__":
     main()

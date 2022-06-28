@@ -1,3 +1,5 @@
+import statistics
+
 from Remedios import medicamentos
 from functools import reduce
 
@@ -52,3 +54,15 @@ def Diferencia_Activo(Activo):  # diferencia entre precios de un activo entre to
     lista = list(filter(lambda x: x.activo == Activo, medicamentos))
     print(f"\nLa diferencia entre el valor maximo y minimo en Clp del activo {Activo} es:", (max(lista, key=lambda value: value.precioClp)).precioClp - (min(lista, key=lambda value: value.precioClp)).precioClp)
     print(f"La diferencia entre el valor maximo y minimo Uf del activo {Activo} es:",(max(lista, key=lambda value: value.precioClp)).precioUf - (min(lista, key=lambda value: value.precioClp)).precioUf)
+
+def Mediana_Activo(Activo): #mediana entre todas las farmacias
+    activos_filtrados = list(filter(lambda x: x.activo == Activo, medicamentos))
+    activos_filtrados_precio = list(map(lambda p: p.precioClp,activos_filtrados))
+    datos_mediana = statistics.median(activos_filtrados_precio)
+    print(datos_mediana)
+
+def Desviacion_Acvtivo(Activo): #desviacion estandar entre todas las farmacias
+    activos_filtrados = list(filter(lambda x: x.activo == Activo, medicamentos))
+    activos_filtrados_precio = list(map(lambda p: p.precioClp,activos_filtrados))
+    Desv_Farmacia = statistics.pstdev(activos_filtrados_precio)
+    print(Desv_Farmacia)
