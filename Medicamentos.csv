@@ -1,26 +1,92 @@
-paracetamol,Drsimi,PARACETAMOL 125 MG - 6 SUPOSITORIOS INFANTIL,1120.0,0.033890724804591224
-paracetamol,Drsimi,PARACETAMOL 80 MG - 16 COMPRIMIDOS MASTICABLES,1680.0,0.050836087206886836
-paracetamol,Drsimi,PARACETAMOL 500 MG - 16 COMPRIMIDOS,480.0,0.014524596344824812
-paracetamol,Drsimi,PANADOL - PARACETAMOL 160 MG - 16 COMPRIMIDOS MASTICABLES,2600.0,0.07867489686780106
-paracetamol,Drsimi,PARACETAMOL 100 MG/ML - GOTAS 15 ML,1120.0,0.033890724804591224
-paracetamol,Drsimi,DOLSOM - PARACETAMOL 100 MG/ML SOLUCI�N GOTAS ORALES 30 ML,1800.0,0.05446723629309304
-paracetamol,Drsimi,ALIVIDOL - PARACETAMOL 500 MG - 24 COMPRIMIDOS,1200.0,0.03631149086206203
-paracetamol,Drsimi,ALGIAFIN - PARACETAMOL 120 MG/5ML - JARABE 60 ML,3000.0,0.09077872715515507
-paracetamol,Drsimi,DROPOL - PARACETAMOL 1 GR - 20 COMPRIMIDOS EFERVECENTES,6120.0,0.18518860339651633
-paracetamol,Drsimi,PANADOL - PARACETAMOL 80 MG - 20 COMPRIMIDOS MASTICABLES,2560.0,0.07746451383906566
-�cido acetilsalic�lico,Drsimi,�CIDO ACETILSALIC�LICO 100 MG - 100 COMPRIMIDOS,2240.0,0.06778144960918245
-�cido acetilsalic�lico,Drsimi,�CIDO ACETILSALIC�LICO 100 MG - 100 COMPRIMIDOS MASTICABLES,1920.0,0.05809838537929925
-�cido acetilsalic�lico,Drsimi,ASPIRINA - �CIDO ACETILSALIC�LICO 500 MG - 20 COMPRIMIDOS,1840.0,0.055677619321828443
-�cido acetilsalic�lico,Drsimi,HASSAPIRIN - �CIDO ACETILSALIC�LICO 500 MG - 20 COMPRIMIDOS,1520.0,0.045994555091945236
-losart�n,Drsimi,LOSART�N POT�SICO 100 MG - 30 COMPRIMIDOS RECUBIERTOS,3200.0,0.09683064229883208
-losart�n,Drsimi,LOSART�N POT�SICO 50 MG - 30 COMPRIMIDOS RECUBIERTOS,1560.0,0.047204938120680634
-losart�n,Drsimi,LOSART�N POT�SICO 50 MG + HIDROCLOROTIAZIDA 12.5 MG - 30 COMPRIMIDOS RECUBIERTOS,2880.0,0.08714757806894886
-losart�n,Drsimi,LOSART�N POT�SICO 100 MG + HIDROCLOROTIAZIDA 25 MG - 30 COMPRIMIDOS RECUBIERTOS,3400.0,0.10288255744250907
-metformina,Drsimi,METFORMINA 850 MG - 30 COMPRIMIDOS,1680.0,0.050836087206886836
-metformina,Drsimi,GLAUPAX 500 - METFORMINA 500 MG - 30 COMPRIMIDOS,3920.0,0.11861753681606929
-metformina,Drsimi,GLAUPAX 500 XR - METFORMINA 500 MG - 30 COMP RECUBIERTOS LIBERACI�N PROLONGADA,4440.0,0.1343525161896295
-metformina,Drsimi,GLAUPAX 1000 XR - METFORMINA 1000 MG - 30 COMPRIMIDOS RECUBIERTOS LIBERACI�N PROLONGADA,9000.0,0.27233618146546523
-metformina,Drsimi,GLAUPAX 750 XR - METFORMINA 750 MG - 30 COMPRIMIDOS RECUBIERTOS DE LIBERACI�N PROLONGADA,8000.0,0.24207660574708018
-atorvastatina,Drsimi,ATORVASTATINA 40 MG - 30 COMPRIMIDOS RECUBIERTOS,6280.0,0.19003013551145795
-atorvastatina,Drsimi,ATORVASTATINA 10 MG - 30 COMPRIMIDOS,1320.0,0.03994263994826823
-atorvastatina,Drsimi,ATORVASTATINA 20 MG - 30 COMPRIMIDOS RECUBIERTOS,1680.0,0.050836087206886836
+Principio Activo,Farmacia,Descripción,Precio en Pesos Chilenos,Precio en UF
+paracetamol,Ahumada,Tapsin 1g Efervescente X 20 Sobres,8095.0,0.24485390887562905
+paracetamol,Ahumada,Tramadol /Paracetamol 325/37.5 Mg 30c R,8195.0,0.2478786637721779
+paracetamol,Ahumada,Gesidol Paracetamol Bioe.1gr X 20comp,6995.0,0.21158160501359172
+paracetamol,Ahumada,Tapsin 160 mg x 16 Comprimidos Masticables,3045.0,0.09210378659991236
+paracetamol,Ahumada,Tapsin 100 mg/mL  x 15 mL Solución Oral Para Gotas,3995.0,0.12083895811712635
+paracetamol,Ahumada,Kitadol 100 mg/mL x 15 mL Solución Oral Para Gotas,3195.0,0.09664091894473563
+paracetamol,Ahumada,Tapsin Compuesto Dia 5 g x 6 Sobres Polvo Para Solución Oral,3445.0,0.10420280618610772
+paracetamol,Ahumada,Kitadol 120 mg/5 mL x 60 mL Jarabe,8995.0,0.27207670294456865
+paracetamol,Ahumada,Tapsin 1000 mg SC x 20 Comprimidos Recubiertos,8695.0,0.2630024382549221
+paracetamol,Ahumada,Kitadol Forte x 10 Comprimidos Recubiertos,2095.0,0.06336861508269831
+paracetamol,Ahumada,Tapsin M 30 Cap,4195.0,0.12688846791022407
+paracetamol,Ahumada,Gesidol Infantil 100 mg/mL x 15 mL Solución Oral Para Gotas,2995.0,0.09059140915163792
+paracetamol,Ahumada,Gesidol Infantil 120 mg/5 mL x 100 mL Jarabe,8595.0,0.2599776833583733
+paracetamol,Ahumada,Kitadol 1 g x 18 Comprimidos,6595.0,0.1994825854273964
+paracetamol,Ahumada,Kitadol 500 mg x 24 Comprimidos,995.0,0.03009631122066101
+paracetamol,Ahumada,Panadol 80 mg x 20 Comprimidos Masticables,3295.0,0.09966567384128447
+paracetamol,Ahumada,Panadol Advance 500mg x 12 Comprimidos,3245.0,0.09815329639301004
+paracetamol,Ahumada,Panadol Advance 500mg x 48 Comprimidos,5995.0,0.1813340560481033
+paracetamol,Ahumada,Panadol Niños 100mg/Ml Gotas 15ml,2795.0,0.08454189935854023
+paracetamol,Ahumada,Panadol Niños 160mg/5ml Jarabe 90ml,7595.0,0.2297301343928848
+paracetamol,Ahumada,Supracalm 1 g x 20 Comprimidos Recubiertos,10995.0,0.33257180087554555
+paracetamol,Ahumada,Tapsin Puro Sin Cafeina 500 mg x 24 Comprimidos,2595.0,0.07849238956544254
+paracetamol,Ahumada,Winasorb 100 mg/mL x 25 mL Solución Oral para Gotas,7695.0,0.2327548892894337
+ácido acetilsalicílico,Ahumada,Aspirina 500 Mg Caja 100comp,8145.0,0.2463662863239035
+ácido acetilsalicílico,Ahumada,Aspirina 100 mg x 98 Comprimidos,5995.0,0.1813340560481033
+ácido acetilsalicílico,Ahumada,Aspirina 100 mg x 42 Comprimidos,3995.0,0.12083895811712635
+ácido acetilsalicílico,Ahumada,Sevedol x 12 Comprimidos,2995.0,0.09059140915163792
+ácido acetilsalicílico,Ahumada,Aspirina 500 mg Adulto x 40 Comprimidos,2695.0,0.08151714446199139
+ácido acetilsalicílico,Ahumada,Cafiaspirina x 40 Comprimidos,9795.0,0.2962747421169594
+ácido acetilsalicílico,Ahumada,Nexium 40 mg x 28 Comprimidos Con Recubrimiento Entérico,46395.0,1.4033350342538369
+ácido acetilsalicílico,Ahumada,Cardioaspirina EC 100 mg x 20 Comprimidos Con Recubrimiento Entérico,6995.0,0.21158160501359172
+ácido acetilsalicílico,Ahumada,Acido Acetilsalic.100mg 100com.,3745.0,0.11327707087575427
+ácido acetilsalicílico,Ahumada,Cardioaspirina EC 325 mg x 30 Comprimidos Con Recubrimiento Entérico,16245.0,0.49137143294436
+ácido acetilsalicílico,Ahumada,Cardioaspirina EC 100 mg x 50 Comprimidos Con Recubrimiento Entérico,11195.0,0.3386213106686433
+ácido acetilsalicílico,Ahumada,Nexium 20 mg x 28 Comprimidos Con Recubrimiento Entérico,26995.0,0.8165325843233608
+losartán,Ahumada,"Losartan + Hidroclorotiazida 50 mg_12,5 mg x 30 Comprimidos Recubiertos",5395.0,0.16318552666881025
+losartán,Ahumada,"Simperten-D 50 mg/12,5 mg x 30 Comprimidos Recubiertos",27395.0,0.8286316039095563
+losartán,Ahumada,Simperten 50 mg x 30 Comprimidos Recubiertos,7695.0,0.2327548892894337
+losartán,Ahumada,"Hyzaar 50 mg/12,5 mg x 30 Comprimidos Recubiertos",23895.0,0.7227651825303466
+losartán,Ahumada,Hyzaar Forte 100 mg/25 mg x 30 Comprimidos Recubiertos,19895.0,0.6017749866683928
+losartán,Ahumada,Simperten-D 100 mg/25 mg x 30 Comprimidos Recubiertos,29745.0,0.8997133439784541
+losartán,Ahumada,Cozaar 50 mg x 30 Comprimidos Recubiertos,22895.0,0.6925176335648582
+losartán,Ahumada,Cozaar 100 mg x 30 Comprimidos Recubiertos,23995.0,0.7257899374268955
+losartán,Ahumada,Corodin 100mg. Caja 30 Comp.,21195.0,0.6410968003235278
+losartán,Ahumada,Losapres 100 mg x 30 Comprimidos Recubiertos,19595.0,0.5927007219787462
+losartán,Ahumada,Corodin 50 mg x 30 Comprimidos Recubiertos,23095.0,0.6985671433579559
+losartán,Ahumada,Losapres 50 mg x 30 Comprimidos Recubiertos,26295.0,0.7953593000475191
+losartán,Ahumada,Corodin D Forte x 30 Comprimidos Recubiertos,29195.0,0.8830771920474354
+losartán,Ahumada,Corodin D x 30 Comprimidos Recubiertos,31895.0,0.9647455742542542
+losartán,Ahumada,Losapres D 100 mg/25 mg x 30 Comprimidos Recubiertos,25595.0,0.774186015771677
+losartán,Ahumada,"Losapres D 50 mg/12,5 mg x 30 Comprimidos Recubiertos",25395.0,0.7681365059785793
+metformina,Ahumada,Metformina Clorhidrato 850mg. 60com.,2995.0,0.09059140915163792
+metformina,Ahumada,Trayenta 5 mg x 30 Comprimidos Recubiertos,47195.0,1.4275330734262277
+metformina,Ahumada,Metformina 850mg. Caja 30 Comp.Rec,2495.0,0.0754676346688937
+metformina,Ahumada,"Trayenta Duo 2,5 mg/500 mg x 60 Comprimidos Recubiertos",45195.0,1.3670379754952506
+metformina,Ahumada,Janumet 50 mg/850 mg x 56 Comprimidos Recubiertos,55395.0,1.675562974943233
+metformina,Ahumada,Victoza 6 mg/mL x 1 Dispositivo Prellenado Solucion Inyectable,84595.0,2.558791404735496
+metformina,Ahumada,"Trayenta Duo 2,5 mg/850 mg x 60 Comprimidos Recubiertos",46595.0,1.4093845440469346
+metformina,Ahumada,"Trayenta Duo 2,5 mg/1000 mg x 60 Comprimidos Recubiertos",47195.0,1.4275330734262277
+metformina,Ahumada,Galvus Met 50 mg/850 mg x 56 Comprimidos Recubiertos,53595.0,1.6211173868053537
+metformina,Ahumada,"Jardiance Duo 12,5 mg/1000 mg x 60 Comprimidos Recubiertos",47295.0,1.4305578283227764
+metformina,Ahumada,Galvus Met 50 mg/500 mg x 28 Comprimidos Recubiertos,32495.0,0.9828941036335472
+metformina,Ahumada,Galvus Met 50 mg/500 mg x 56 Comprimidos Recubiertos,58095.0,1.7572313571500515
+metformina,Ahumada,GLAFORNIL 1000MG. CAJA 30 COMP.,26095.0,0.7893097902544213
+metformina,Ahumada,Glafornil 500 mg x 30 Comprimidos Recubiertos,10195.0,0.3083737617031548
+metformina,Ahumada,Glafornil 850 mg x 30 Comprimidos Recubiertos,15895.0,0.480784790806439
+metformina,Ahumada,Glafornil 850 mg x 60 Comprimidos Recubiertos,22195.0,0.6713443492890162
+metformina,Ahumada,Glafornil XR 1000 mg x 30 Comprimidos De Liberación Prolongada,25395.0,0.7681365059785793
+metformina,Ahumada,Glafornil XR 500 mg x 30 Comprimidos De Liberación Prolongada,11195.0,0.3386213106686433
+metformina,Ahumada,Glafornil XR 750 mg x 30 Comprimidos De Liberación Prolongada,21095.0,0.6380720454269789
+metformina,Ahumada,Glaupax 500 Mg X 30comp Rec,7695.0,0.2327548892894337
+metformina,Ahumada,Glaupax 850 Mg X 30comp Rec,6845.0,0.20704447266876846
+metformina,Ahumada,Glaupax XR 1000 mg x 30 Comprimidos de Liberación Prolongada,15095.0,0.4565867516340482
+metformina,Ahumada,Glaupax XR 500 mg x 30 Comprimidos Recubiertos De Liberación Prolongada,8995.0,0.27207670294456865
+metformina,Ahumada,Glaupax XR 750 mg x 30 Comprimidos Recubiertos De Liberación Prolongada,12795.0,0.3870173890134248
+atorvastatina,Ahumada,LIPOTEN 80 MG 28COMP,31295.0,0.9465970448749612
+atorvastatina,Ahumada,LOWDEN 10MG. CAJA 30 COMP.,18295.0,0.5533789083236113
+atorvastatina,Ahumada,Lowden 10 mg x 60 Comprimidos Recubiertos,35795.0,1.0827110152196593
+atorvastatina,Ahumada,LIPOTEN 40 MG 28COMP,29395.0,0.8891267018405331
+atorvastatina,Ahumada,HIPOLIXAN 10MG. CAJA 30 COMP.,10695.0,0.32349753618589905
+atorvastatina,Ahumada,Atorvastatina 10 mg x 30 Comprimidos Recubiertos,2695.0,0.08151714446199139
+atorvastatina,Ahumada,LOWDEN 20MG. CAJA 30 COMP.,30995.0,0.9375227801853148
+atorvastatina,Ahumada,LOWDEN 20MG. 60 COMP. REC.,47195.0,1.4275330734262277
+atorvastatina,Ahumada,LOWDEN 40MG. CAJA 30 COMP.,33895.0,1.0252406721852312
+atorvastatina,Ahumada,Lipitor 10 mg x 30 Comprimidos Recubiertos,50995.0,1.5424737594950837
+atorvastatina,Ahumada,Lipitor 40 mg x 30 Comprimidos Recubiertos,66995.0,2.026434542942899
+atorvastatina,Ahumada,Lipitor 80 mg x 30 Comprimido Recubiertos,72995.0,2.20791983673583
+atorvastatina,Ahumada,Lipitor 10 mg x 60 Comprimidos Recubiertos,64995.0,1.9659394450119219
+atorvastatina,Ahumada,Lipitor 20 mg x 30 Comprimidos Recubiertos,69995.0,2.1171771898393645
+atorvastatina,Ahumada,Lipitor 20 mg x 60 Comprimidos Recubiertos,93595.0,2.831019345424892
+atorvastatina,Ahumada,Lipitor 20 mg x 90 Comprimidos Recubiertos,101995.0,3.0850987567349955
